@@ -1,0 +1,97 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #ffccff, #ffffff);
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+main {
+  padding: 1.5rem;
+}
+
+.intro {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.andy-pic {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  border: 4px solid #ff69b4;
+}
+
+.rainbow-flags {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.flags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.flags img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.symbols {
+  margin-top: 2rem;
+  text-align: center;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.emoji-line {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+footer {
+  background-color: #ff69b4;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  .flags img {
+    max-width: 90%;
+  }
+
+  .emoji-line {
+    font-size: 1.5rem;
+  }
+}
